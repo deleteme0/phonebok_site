@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/persons'
+const baseUrl = 'https://fso-part3-gzzr.onrender.com/api/persons'
 
 const getAll = () => {
   return axios.get(baseUrl)
